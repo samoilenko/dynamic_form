@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  display: block;
+}
+
+form input, form select {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+form label input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 3px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
